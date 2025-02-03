@@ -1,0 +1,23 @@
+.footer {
+    background: linear-gradient(rgba(84, 3,255,0.15), rgba(105,2,153,0.15));
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin: 0;
+}

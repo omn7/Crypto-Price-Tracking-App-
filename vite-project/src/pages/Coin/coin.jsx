@@ -3,8 +3,8 @@ import './Coin.css'
 
 const Coin = () => {
     return (
-        <div>
-            <h1>Coin Page</h1>
+        <div className="coin-container">
+            <h2>hello why i cant see it</h2>
         </div>
     );
 };
