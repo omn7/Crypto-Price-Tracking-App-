@@ -1,4 +1,5 @@
 .navbar {
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,4 +43,23 @@
     background: transparent;
     color: white;
     padding: 6px 9px;
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .navright {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    .navbar select, .navbar button {
+        width: 100%;
+        margin-top: 10px;
+    }
 }

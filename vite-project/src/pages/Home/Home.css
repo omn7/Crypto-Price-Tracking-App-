@@ -83,3 +83,32 @@
     color: red;
     text-align: center;
 }
+@media (max-width: 768px) {
+    .hero {
+        margin: 40px auto;
+        gap: 20px;
+    }
+    .hero h1 {
+        font-size: max(6vw, 28px);
+    }
+    .hero p {
+        width: 90%;
+    }
+    .hero form {
+        width: 90%;
+        font-size: 18px;
+    }
+    .crypto-table {
+        max-width: 100%;
+    }
+    .crypto-layout {
+        grid-template-columns: 1fr 1fr;
+        padding: 10px 15px;
+    }
+    .crypto-layout div {
+        gap: 5px;
+    }
+    .crypto-layout div img {
+        width: 25px;
+    }
+}
